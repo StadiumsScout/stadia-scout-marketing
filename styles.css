@@ -400,6 +400,74 @@ h2 {
   line-height: 1.7;
 }
 
+/* ─── About ─────────────────────────────────────── */
+.about-section { background: var(--bg); }
+.about-inner { max-width: 720px; text-align: center; }
+.about-body {
+  font-size: 18px;
+  line-height: 1.75;
+  color: var(--muted);
+  max-width: 600px;
+  margin: 0 auto 56px;
+}
+.about-stats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 36px 24px;
+}
+.about-stat { flex: 1; text-align: center; }
+.about-stat-num { font-size: 42px; font-weight: 900; color: var(--gold); line-height: 1; margin-bottom: 8px; }
+.about-stat-label { font-size: 13px; color: var(--muted); font-weight: 600; }
+.about-stat-divider { width: 1px; height: 60px; background: var(--border); flex-shrink: 0; }
+@media (max-width: 480px) {
+  .about-body { font-size: 16px; }
+  .about-stat-num { font-size: 30px; }
+  .about-stats { padding: 24px 12px; }
+}
+
+/* ─── Waitlist ───────────────────────────────────── */
+.waitlist-section { background: var(--card2); }
+.waitlist-inner { max-width: 600px; text-align: center; }
+.waitlist-form { margin-top: 32px; }
+.waitlist-row { display: flex; gap: 12px; }
+.waitlist-input {
+  flex: 1;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 14px 18px;
+  color: var(--white);
+  font-size: 15px;
+  font-family: inherit;
+  outline: none;
+  transition: border-color 0.2s;
+}
+.waitlist-input::placeholder { color: rgba(255,255,255,0.25); }
+.waitlist-input:focus { border-color: rgba(255,184,28,0.5); }
+.waitlist-btn {
+  background: var(--gold);
+  color: #0D1B2A;
+  border: none;
+  border-radius: 12px;
+  padding: 14px 24px;
+  font-size: 15px;
+  font-weight: 800;
+  font-family: inherit;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: opacity 0.2s;
+}
+.waitlist-btn:hover { opacity: 0.88; }
+.waitlist-note { font-size: 12px; color: rgba(255,255,255,0.2); margin-top: 12px; }
+@media (max-width: 480px) {
+  .waitlist-row { flex-direction: column; }
+  .waitlist-btn { width: 100%; }
+}
+
 /* ─── Social ─────────────────────────────────────── */
 .social { background: var(--card2); }
 .social-inner { max-width: 800px; }

@@ -5,10 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Stadia Scout — Every Stadium. Your Best Experience.</title>
   <meta name="description" content="Track every MLB stadium you visit. Log your experiences, earn badges, explore the ultimate baseball bucket list, and connect with fans who live for the ballpark." />
-  <meta property="og:title" content="Stadia Scout" />
-  <meta property="og:description" content="Every stadium. Your best experience." />
-  <meta property="og:image" content="/og-image.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.stadiascout.com/" />
+  <meta property="og:title" content="Stadia Scout — Every Stadium. Your Best Experience." />
+  <meta property="og:description" content="Track every MLB stadium you visit. Log your experiences, earn badges, and connect with fans who live for the ballpark." />
+  <meta property="og:image" content="https://www.stadiascout.com/og-image.png" />
   <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Stadia Scout — Every Stadium. Your Best Experience." />
+  <meta name="twitter:description" content="Track every MLB stadium you visit. Log your experiences, earn badges, and connect with fans who live for the ballpark." />
+  <meta name="twitter:image" content="https://www.stadiascout.com/og-image.png" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -25,8 +30,10 @@
         <span class="nav-brand">STADIA SCOUT</span>
       </a>
       <div class="nav-links">
+        <a href="#about">About</a>
         <a href="#features">Features</a>
         <a href="#screenshots">Screenshots</a>
+        <a href="#waitlist">Join Waitlist</a>
         <a href="#suggestions">Suggestions</a>
         <a href="#social">Social</a>
         <a href="#privacy">Privacy</a>
@@ -334,6 +341,49 @@
     </div>
   </section>
 
+  <!-- ABOUT -->
+  <section class="about-section" id="about">
+    <div class="section-inner about-inner">
+      <div class="section-label">Our Story</div>
+      <h2>Built by a fan, for every fan.</h2>
+      <p class="about-body">We're baseball fans on a mission to visit all 30 parks. Along the way, we realized there was no good tool for the journey — where to eat, where to sit, how to get there. Stadia Scout is what we built to fix that. One app. Every stadium. Everything you need.</p>
+      <div class="about-stats">
+        <div class="about-stat">
+          <div class="about-stat-num">30</div>
+          <div class="about-stat-label">MLB Stadiums</div>
+        </div>
+        <div class="about-stat-divider"></div>
+        <div class="about-stat">
+          <div class="about-stat-num">5</div>
+          <div class="about-stat-label">Rating Categories</div>
+        </div>
+        <div class="about-stat-divider"></div>
+        <div class="about-stat">
+          <div class="about-stat-num">1</div>
+          <div class="about-stat-label">App to Rule Them All</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WAITLIST -->
+  <section class="waitlist-section" id="waitlist">
+    <div class="section-inner waitlist-inner">
+      <div class="section-label">Stay in the Loop</div>
+      <h2>Be first to know.</h2>
+      <p class="section-sub">Get notified when Stadia Scout launches on the App Store, plus early access updates and ballpark news delivered to your inbox.</p>
+      <form class="waitlist-form" action="https://formspree.io/f/xlgplevq" method="POST">
+        <input type="hidden" name="_subject" value="New Waitlist Signup" />
+        <input type="hidden" name="type" value="waitlist" />
+        <div class="waitlist-row">
+          <input type="email" name="email" placeholder="Enter your email" required class="waitlist-input" />
+          <button type="submit" class="waitlist-btn">Join Waitlist</button>
+        </div>
+        <p class="waitlist-note">No spam. Just ballpark updates.</p>
+      </form>
+    </div>
+  </section>
+
   <!-- SOCIAL -->
   <section class="social" id="social">
     <div class="section-inner social-inner">
@@ -376,8 +426,10 @@
       <img src="stadia-scout-logo-transparent.png" alt="Stadia Scout" class="footer-logo" />
       <p class="footer-tagline">Every stadium. Your best experience.</p>
       <div class="footer-links">
+        <a href="#about">About</a>
         <a href="#features">Features</a>
         <a href="#screenshots">Screenshots</a>
+        <a href="#waitlist">Waitlist</a>
         <a href="#suggestions">Suggestions</a>
         <a href="#privacy">Privacy</a>
         <a href="mailto:stadiscout@gmail.com">Contact</a>
