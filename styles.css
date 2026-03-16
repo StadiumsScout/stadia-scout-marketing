@@ -42,8 +42,14 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-.logo-link { display: flex; align-items: center; text-decoration: none; }
-.logo { height: 48px; width: auto; }
+.logo-link { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+.logo { height: 48px; width: auto; mix-blend-mode: screen; }
+.nav-brand {
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: var(--white);
+}
 .nav-links { display: flex; gap: 32px; }
 .nav-links a {
   color: var(--muted);
@@ -409,7 +415,7 @@ h2 {
   gap: 20px;
   text-align: center;
 }
-.footer-logo { height: 36px; width: auto; }
+.footer-logo { height: 80px; width: auto; mix-blend-mode: screen; }
 .footer-tagline { font-size: 15px; color: var(--muted); }
 .footer-links {
   display: flex;
