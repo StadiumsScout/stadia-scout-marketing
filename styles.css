@@ -43,7 +43,7 @@ body {
   justify-content: space-between;
 }
 .logo-link { display: flex; align-items: center; text-decoration: none; }
-.logo { height: 36px; width: auto; }
+.logo { height: 48px; width: auto; }
 .nav-links { display: flex; gap: 32px; }
 .nav-links a {
   color: var(--muted);
