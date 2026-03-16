@@ -43,7 +43,7 @@ body {
   justify-content: space-between;
 }
 .logo-link { display: flex; align-items: center; gap: 10px; text-decoration: none; }
-.logo { height: 48px; width: auto; mix-blend-mode: screen; }
+.logo { height: 48px; width: auto; }
 .nav-brand {
   font-size: 16px;
   font-weight: 800;
@@ -415,7 +415,7 @@ h2 {
   gap: 20px;
   text-align: center;
 }
-.footer-logo { height: 80px; width: auto; mix-blend-mode: screen; }
+.footer-logo { height: 80px; width: auto; }
 .footer-tagline { font-size: 15px; color: var(--muted); }
 .footer-links {
   display: flex;
