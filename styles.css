@@ -119,6 +119,33 @@ h2 {
 }
 .btn-secondary:hover { border-color: rgba(255,255,255,0.25); background: rgba(255,255,255,0.04); }
 .btn-full { width: 100%; text-align: center; font-size: 16px; padding: 16px; border-radius: var(--radius-sm); }
+.btn-appstore {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: #000;
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 14px 28px;
+  border-radius: 50px;
+  text-decoration: none;
+  border: 1px solid rgba(255,255,255,0.15);
+  transition: background 0.2s, transform 0.15s;
+}
+.btn-appstore:hover { background: #1a1a1a; transform: translateY(-1px); }
+.btn-appstore-large { font-size: 17px; padding: 16px 36px; }
+.nav-download-btn {
+  background: var(--gold) !important;
+  color: var(--bg) !important;
+  padding: 8px 18px !important;
+  border-radius: 50px !important;
+  font-weight: 700 !important;
+  font-size: 13px !important;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+.nav-download-btn:hover { opacity: 0.9; }
 
 /* ─── Hero ───────────────────────────────────────── */
 .hero {
